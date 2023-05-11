@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/uitiot"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/uitiot"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SuperProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".ServerDashBoardActivity"
+            android:theme="@style/Theme.Themesnotitlebar"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".DeviceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".GraphActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".OpenRemoteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".OnBoardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Themesnotitlebar" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Themesnotitlebar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

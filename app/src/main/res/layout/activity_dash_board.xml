@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".DashBoardActivity">
+
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp">
+
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/Logo"
+                android:text="UITAQ"
+                android:textAlignment="textStart"
+                android:textColor="#1DB7AE"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="48dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/uitiot" />
+            <ImageView
+                android:id="@+id/Logo3"
+                android:layout_width="48dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_baseline_person_24" />
+            <ImageView
+                android:id="@+id/noti"
+                android:layout_width="48dp"
+                android:layout_toLeftOf="@+id/Logo3"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_baseline_notifications_24" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

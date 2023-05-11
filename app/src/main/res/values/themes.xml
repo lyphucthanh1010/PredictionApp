@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SuperProject" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="NightModeSwitch"
+        parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#6124B1</item>
+        <item name="colorSwitchThumbNormal">#000000</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+    <style name="NotiSwitch"
+        parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#13B2C3</item>
+        <item name="colorSwitchThumbNormal">#000000</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+    <style name="PriAccSwitch"
+        parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#E6A326</item>
+        <item name="colorSwitchThumbNormal">#000000</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+</resources>
